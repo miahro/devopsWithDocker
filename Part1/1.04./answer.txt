@@ -1,0 +1,2 @@
+docker run -it --rm --name ex104 ubuntu sh -c 'apt update; apt install curl --yes && \
+while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
