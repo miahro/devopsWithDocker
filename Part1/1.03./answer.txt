@@ -1,0 +1,4 @@
+docker run -d --rm -it --name ex103 devopsdockeruh/simple-web-service:ubuntu
+docker exec -it ex103 bash
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
