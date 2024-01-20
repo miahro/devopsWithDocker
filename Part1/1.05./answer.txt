@@ -1,0 +1,9 @@
+docker pull devopsdockeruh/simple-web-service:alpine
+docker pull devopsdockeruh/simple-web-service:ubuntu
+docker images > sizes.txt
+
+docker run -d --rm -it --name ex105 devopsdockeruh/simple-web-service:alpine
+docker exec -it ex105 sh
+
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
