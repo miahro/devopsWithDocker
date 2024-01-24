@@ -1,0 +1,5 @@
+cp Dockerfile example-backend/
+cd example-backend
+
+docker build . -t "example-backend"
+docker run --rm -p 8080:8080 example-backend

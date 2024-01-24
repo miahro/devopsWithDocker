@@ -1,0 +1,6 @@
+cp Dockerfile example-frontend/
+cd example-frontend
+
+
+docker build . -t "example-frontend"
+docker run --rm -p 5000:5000 example-frontend
